@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "https://jumping-panda.herokuapp.com/")
+@CrossOrigin(origins = "https://frontend-tuwaiq.herokuapp.com")
 @RequestMapping(path = "api/bootcamp")
 public class BootcampController {
     private BootcampService bootcampService;
